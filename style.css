@@ -173,3 +173,27 @@ a:hover {
     margin: 8px 0;
   }
 }
+/* Greeting Section */
+.greeting {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #eef6ff;
+}
+
+.greet-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.greet-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
